@@ -29,6 +29,11 @@ function enqueueCustomStyles($extraStyles = null) {
 }
 add_action('wp_enqueue_scripts', 'enqueueCustomStyles');
 
+// Add action to hook custom stylesheets
+add_action('wp_enqueue_scripts', function() {
+    enqueueCustomStyles('navbar');
+});
+
 // ------------------------------------------------------------------------------------------------------------------------
 
 /**

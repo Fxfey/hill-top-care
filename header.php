@@ -11,11 +11,37 @@
     <header>
         <nav>
             <div class="navbar">
-                <a href="#">Example</a>
+                <div class="nav-item-container">
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </div>
+                    <img class="site-logo" src="<?= get_template_directory_uri() . '/img/logo.png' ?>" alt="">
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </div>
+                </div>
             </div>
             <div class="hamburger">
-                <div class="hamburger-menu">
-                    <a class="ham-item" href="#ham">Example Ham</a>
+                <img class="site-logo-ham" src="<?= get_template_directory_uri() . '/img/logo-nav.png' ?>" alt="">
+                <div class="hamburger-menu closed">
+                    <div class="ham-item">
+                        <a class="ham-link" href="#">About</a>
+                    </div>
+                    <div class="ham-item">
+                        <a class="ham-link" href="#">Testimonials</a>
+                    </div>
+                    <div class="ham-item">
+                        <a class="ham-link" href="#">Services</a>
+                    </div>
+                    <div class="ham-item">
+                        <a class="ham-link" href="#">Contact Us</a>
+                    </div>
                 </div>
                 <svg class="ham hamRotate ham-state" viewBox="0 0 100 100" width="80">
                     <path class="line top" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />

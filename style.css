@@ -51,73 +51,18 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: "Red Hat Display", sans-serif;
 }
 
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
-/* Nav Styling */
-.hamburger {
-    display: none;
-    height: 80px
+* {
+    font-family: "EB Garamond", serif;
 }
 
-.hamburger-menu {
-    display: none;
-}
 
-.ham {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-    transition: transform 400ms;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin-left: auto;
+/* Variables */
+:root {
+    --primary-blue: #2B3750
 }
-
-.hamRotate.active {
-    transform: rotate(45deg);
-}
-
-.hamRotate180.active {
-    transform: rotate(180deg);
-}
-
-.line {
-    fill:none;
-    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke:#000;
-    stroke-width:5.5;
-    stroke-linecap:round;
-}
-
-.ham-state .top {
-    stroke-dasharray: 40 121;
-}
-
-.ham-state .bottom {
-    stroke-dasharray: 40 121;
-}
-
-.ham-state.active .top {
-    stroke-dashoffset: -68px;
-}
-
-.ham-state.active .bottom {
-    stroke-dashoffset: -68px;
-}
-
-.active-menu {
-    display: flex;
-}
-
-@media (max-width: 960px) {
-    .hamburger {
-        display: flex;
-    }
-    .navbar {
-        display: none;
-    }
-}
-
 
 /* Define breakpoints */
 /* tablet: 960px */
@@ -130,4 +75,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Apply styles for screens with a width of 768px or less (mobile devices) */
 @media (max-width: 768px) {
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
