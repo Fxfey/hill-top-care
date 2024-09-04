@@ -32,6 +32,7 @@ add_action('wp_enqueue_scripts', 'enqueueCustomStyles');
 // Add action to hook custom stylesheets
 add_action('wp_enqueue_scripts', function() {
     enqueueCustomStyles('navbar');
+    enqueueCustomStyles('hero');
 });
 
 // ------------------------------------------------------------------------------------------------------------------------
@@ -119,3 +120,5 @@ add_filter('style_loader_src', 'removeWpVersionStrings');
 
 // Disable XML-RPC
 add_filter('xmlrpc_enabled', '__return_false');
+
+// ------------------------------------------------------------------------------------------------------------------------

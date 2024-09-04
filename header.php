@@ -13,12 +13,14 @@
             <div class="navbar">
                 <div class="nav-item-container">
                     <div class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="/about">About</a>
                     </div>
                     <div class="nav-item">
                         <a class="nav-link" href="#">Testimonials</a>
                     </div>
-                    <img class="site-logo" src="<?= get_template_directory_uri() . '/img/logo.png' ?>" alt="">
+                    <a href="/">
+                        <img class="site-logo" src="<?= get_template_directory_uri() . '/img/logo.png' ?>" alt="">
+                    </a>
                     <div class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                     </div>
@@ -28,10 +30,14 @@
                 </div>
             </div>
             <div class="hamburger">
-                <img class="site-logo-ham" src="<?= get_template_directory_uri() . '/img/logo-nav.png' ?>" alt="">
+                <div class="logo-container">
+                    <a href="/" class="site-logo-ham">
+                        <img class="site-logo-ham-img" src="<?= get_template_directory_uri() . '/img/logo-nav.png' ?>" alt="">
+                    </a>
+                </div>
                 <div class="hamburger-menu closed">
                     <div class="ham-item">
-                        <a class="ham-link" href="#">About</a>
+                        <a class="ham-link" href="/about">About</a>
                     </div>
                     <div class="ham-item">
                         <a class="ham-link" href="#">Testimonials</a>
