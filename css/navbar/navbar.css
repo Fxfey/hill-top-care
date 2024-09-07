@@ -124,6 +124,7 @@
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
+    font-family: "EB Garamond", serif;
 }
 .nav-link::after {
     content: '';
@@ -176,6 +177,7 @@
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
+    font-family: "EB Garamond", serif;
 }
 .ham-link::after {
     content: '';

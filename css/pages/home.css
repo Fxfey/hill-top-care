@@ -1,0 +1,24 @@
+.page-title {
+    color: var(--primary-blue);
+    margin-bottom: 8px;
+}
+
+.page-text {
+    padding: 10px 10px;
+    background-color: var(--primary-blue-lighter);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
