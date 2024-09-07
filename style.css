@@ -145,38 +145,38 @@ p {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  }
-  
-  .footer-nav ul {
+}
+
+.footer-nav ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-nav li {
+}
+
+.footer-nav li {
     display: inline;
     margin: 0 15px;
-  }
-  
-  .footer-nav a {
+}
+
+.footer-nav a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  .footer-social a {
+}
+
+.footer-social a {
     color: #fff;
     margin: 0 10px;
-  }
-  
-  .footer-info {
+}
+
+.footer-info {
     margin: 10px 10px 0px 10px;
-  }
+}
 
